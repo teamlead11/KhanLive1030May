@@ -24,6 +24,9 @@ public class HomePage {
 	@FindBy(xpath="//a[text()='Math' and @class='link_1uvuyao-o_O-headerLinkStyle_13yjtgr']")
 	private WebElement lnk_headerMath;
 
+	@FindBy(xpath="//span[text()='Arithmetic']")
+	private WebElement lnk_arithmatic;
+
 	public WebElement getLnk_headerMath() {
 		return lnk_headerMath;
 	}
@@ -38,6 +41,10 @@ public class HomePage {
 
 	public WebElement getLnk_earlyMath() {
 		return lnk_earlyMath;
+	}
+
+	public WebElement getLnk_arithmatic() {
+		return lnk_arithmatic;
 	}
 	
 	

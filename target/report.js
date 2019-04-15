@@ -41,7 +41,7 @@ formatter.step({
     {
       "cells": [
         "Early math",
-        "Test",
+        "Kindergarten",
         "1st grade",
         "2nd grade",
         "3rd grade"
@@ -54,8 +54,7 @@ formatter.match({
   "location": "MathSteps.the_user_should_see_the_list_of_courses(DataTable)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.khanacademy.stepdefinition.MathSteps.the_user_should_see_the_list_of_courses(MathSteps.java:32)\r\n\tat ✽.The user should see the list of courses(src/test/resources/features/math/Math.feature:7)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
