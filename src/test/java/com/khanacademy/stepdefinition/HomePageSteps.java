@@ -19,4 +19,11 @@ public class HomePageSteps extends FunctionalLibrary {
 		click(home.getLnk_courses());
 		click(home.getLnk_headerMath());
 	}
+
+	@Given("The user is in class{int} math course")
+	public void the_user_is_in_class_math_course(Integer int1) {
+		HomePage home = new HomePage();
+		click(home.getLnk_courses());
+		click(home.getLnk_Class5());
+	}
 }

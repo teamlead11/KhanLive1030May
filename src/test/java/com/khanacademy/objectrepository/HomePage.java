@@ -8,6 +8,7 @@ import com.khanacademy.resources.FunctionalLibrary;
 
 
 public class HomePage {
+	
 	public HomePage(){
 		PageFactory.initElements(FunctionalLibrary.driver, this);
 	}
@@ -15,7 +16,7 @@ public class HomePage {
 	@FindBy(xpath="//div[text()='Learners, start here']")
 	private WebElement lnk_learners;
 	
-	@FindBy(xpath="//span[@data-test-id=\"learn-menu-button\"]")
+	@FindBy(xpath="//span[@data-test-id='learn-menu-button']")
 	private WebElement lnk_courses;
 	
 	@FindBy(xpath="//a[@aria-label='Early math']")
@@ -23,6 +24,9 @@ public class HomePage {
 	
 	@FindBy(xpath="//a[text()='Math' and @class='link_1uvuyao-o_O-headerLinkStyle_13yjtgr']")
 	private WebElement lnk_headerMath;
+	
+	@FindBy(xpath="//a[@aria-label='Class 5']")
+	private WebElement lnk_Class5;
 
 	public WebElement getLnk_headerMath() {
 		return lnk_headerMath;
@@ -38,6 +42,10 @@ public class HomePage {
 
 	public WebElement getLnk_earlyMath() {
 		return lnk_earlyMath;
+	}
+
+	public WebElement getLnk_Class5() {
+		return lnk_Class5;
 	}
 	
 	
