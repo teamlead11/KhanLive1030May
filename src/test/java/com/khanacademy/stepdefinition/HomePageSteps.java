@@ -18,6 +18,7 @@ public class HomePageSteps extends FunctionalLibrary {
 		HomePage home = new HomePage();
 		click(home.getLnk_courses());
 		click(home.getLnk_headerMath());
+
 	}
 
 	@Given("The user is in class{int} math course")
@@ -26,4 +27,12 @@ public class HomePageSteps extends FunctionalLibrary {
 		click(home.getLnk_courses());
 		click(home.getLnk_Class5());
 	}
+
+	@Given("The user navigates to Arithmetic page")
+	public void the_user_navigates_to_Arithmetic_page() {
+		HomePage home = new HomePage();
+		click(home.getLnk_courses());
+		click(home.getLnk_arithmatic());
+	}
+
 }

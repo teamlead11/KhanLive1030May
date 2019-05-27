@@ -6,8 +6,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/features/math/Class5.feature",tags= {},monochrome=true,glue="com.khanacademy.stepdefinition",dryRun=false,
-plugin= {"html:target"})
+@CucumberOptions(features = "src/test/resources/features/math/Class5.feature", tags = {}, monochrome = true, glue = "com.khanacademy.stepdefinition", dryRun = false, plugin = {
+		"html:target" })
 
 public class TestRunner {
 

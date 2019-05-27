@@ -50,6 +50,7 @@ formatter.step({
   "rows": [
     {
       "cells": [
+<<<<<<< HEAD
         "Angle measurement \u0026 circle arcs",
         "Acute, right, \u0026 obtuse angles",
         "Measuring angles in degrees",
@@ -57,6 +58,13 @@ formatter.step({
         "Identifying an angle",
         "Measuring angles using a protractor",
         "Measuring angles using a protractor 2"
+=======
+        "Early math",
+        "Kindergarten",
+        "1st grade",
+        "2nd grade",
+        "3rd grade"
+>>>>>>> 6711f9e160b138253ea30925108ec2c700701263
       ]
     }
   ],
@@ -67,6 +75,7 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+<<<<<<< HEAD
 });
 formatter.step({
   "name": "The user should see the list parctice courses",
@@ -88,6 +97,8 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+=======
+>>>>>>> 6711f9e160b138253ea30925108ec2c700701263
 });
 formatter.after({
   "status": "passed"

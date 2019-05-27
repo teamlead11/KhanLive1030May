@@ -28,6 +28,9 @@ public class HomePage {
 	@FindBy(xpath="//a[@aria-label='Class 5']")
 	private WebElement lnk_Class5;
 
+	@FindBy(xpath="//span[text()='Arithmetic']")
+	private WebElement lnk_arithmatic;
+
 	public WebElement getLnk_headerMath() {
 		return lnk_headerMath;
 	}
@@ -44,8 +47,13 @@ public class HomePage {
 		return lnk_earlyMath;
 	}
 
+<<<<<<< HEAD
 	public WebElement getLnk_Class5() {
 		return lnk_Class5;
+=======
+	public WebElement getLnk_arithmatic() {
+		return lnk_arithmatic;
+>>>>>>> 6711f9e160b138253ea30925108ec2c700701263
 	}
 	
 	
