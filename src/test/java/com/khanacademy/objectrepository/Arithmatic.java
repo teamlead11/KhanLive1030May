@@ -9,14 +9,10 @@ import org.openqa.selenium.support.PageFactory;
 import com.khanacademy.resources.FunctionalLibrary;
 
 public class Arithmatic {
-	public Arithmatic() {
-		PageFactory.initElements(FunctionalLibrary.driver, this);
-	}
-	@FindBy(xpath = "//div[contains(@class,'default_olfzxm')]//div//a//span[@class='text_12zg6rl-o_O-LabelLarge_np83x5']")
-	private List<WebElement> lbl_arithmaticCourseList;
-	public List<WebElement> getLbl_arithmaticCourseList() {
-		return lbl_arithmaticCourseList;
-	}
+	static int x=30;
+	
+	static {System.out.println("static block");}
+	
 
 
 }
