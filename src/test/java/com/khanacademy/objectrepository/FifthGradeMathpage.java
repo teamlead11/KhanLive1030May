@@ -6,9 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.khanacademy.resources.FunctionalLibrary;
 
-public class FifthGradeMath {
+public class FifthGradeMathpage {
 
-	public FifthGradeMath(){
+	public FifthGradeMathpage(){
 		PageFactory.initElements(FunctionalLibrary.driver, this);
 	}
 	

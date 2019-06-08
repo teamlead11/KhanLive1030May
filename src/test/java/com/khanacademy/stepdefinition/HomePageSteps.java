@@ -34,5 +34,5 @@ public class HomePageSteps extends FunctionalLibrary {
 		click(home.getLnk_courses());
 		click(home.getLnk_arithmatic());
 	}
-
+	
 }

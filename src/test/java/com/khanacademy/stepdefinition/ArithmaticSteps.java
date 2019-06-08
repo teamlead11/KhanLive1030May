@@ -6,7 +6,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
-import com.khanacademy.objectrepository.Arithmatic;
+import com.khanacademy.objectrepository.ArithmaticPage;
 import com.khanacademy.resources.FunctionalLibrary;
 
 import cucumber.api.java.en.Then;

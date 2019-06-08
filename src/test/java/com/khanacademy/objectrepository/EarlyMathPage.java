@@ -32,6 +32,10 @@ public class EarlyMathPage {
 	
 	@FindBy(xpath="//div[@data-test-id='exercise-feedback-popover-correct']")
 	private WebElement alert_feedBack;
+	
+	@FindBy(xpath="//a[@data-test-id='unit-header']/span[text()='Addition and subtraction intro']")
+	private WebElement lnk_addSubtract;
+	
 
 	public WebElement getLnk_getStarted() {
 		return lnk_getStarted;
