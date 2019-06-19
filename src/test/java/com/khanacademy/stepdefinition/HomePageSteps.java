@@ -4,6 +4,7 @@ import com.khanacademy.objectrepository.HomePage;
 import com.khanacademy.resources.FunctionalLibrary;
 
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
 
 public class HomePageSteps extends FunctionalLibrary {
 	@Given("The user navigates to early math page")
@@ -34,5 +35,11 @@ public class HomePageSteps extends FunctionalLibrary {
 		click(home.getLnk_courses());
 		click(home.getLnk_arithmatic());
 	}
-	
+
+	@When("The user navigates to class nine physics course")
+	public void the_user_navigates_to_class_physics_course() {
+		HomePage home = new HomePage();
+		click(home.getLnk_courses());
+		click(home.getLnk_class9Physics());
+	}
 }

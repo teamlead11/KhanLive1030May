@@ -30,6 +30,14 @@ public class HomePage {
 
 	@FindBy(xpath="//span[text()='Arithmetic']")
 	private WebElement lnk_arithmatic;
+	
+	@FindBy(xpath="//a[@aria-label='Physics class 9']")
+	private WebElement lnk_class9Physics;
+	
+
+	public WebElement getLnk_class9Physics() {
+		return lnk_class9Physics;
+	}
 
 	public WebElement getLnk_headerMath() {
 		return lnk_headerMath;
